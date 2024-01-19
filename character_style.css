@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+.fadeIn {
+    animation-name: fadeInAnime;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+    color: red;
+    font-size: 3em;
+    text-align: center;
+}
+
+@keyframes fadeInAnime{
+    0% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+      }
+    }
+  
+
+
+.content {
+    color: white;
+    text-align: center;
+}
+
+.role h2{
+    color: red;
+    padding: 0.5em 0;
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+    text-align: center;
+}
+  
+img {
+    max-width: 50%;
+    height: auto;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.role p {
+    color: white;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-item {
+    width: 33.33%;
+    text-align: center;
+    
+}
+
