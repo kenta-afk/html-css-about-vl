@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+    background-color: black;
+}
+
+h1 {
+    font-size: 3em;
+    color: red;
+}
+
+h2 {
+    color: red;
+    padding: 0.5em 0;
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+.sevral_link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px; /* Adjust as needed */
+}
+
+.introduction {
+    color: white;
+}
+
+.sevral_link a {
+    color: white;
+}
+
+
